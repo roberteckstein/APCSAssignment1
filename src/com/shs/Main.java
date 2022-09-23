@@ -10,11 +10,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //  This is a test project from Mr. Bob. It
-        //  creates a JFrame object, sizes it, and
-        //  displays it on the screen. If the user
-        //  closes the frame using the control in the
-        //  title bar, the program should exit.
+            /* This is a test project from Mr. Bob. It
+            creates a JFrame object, sizes it, and
+            displays it on the screen. If the user
+            closes the frame using the control in the
+            title bar, the program should exit.
+            */
 
         JFrame f = new JFrame("A Window");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
