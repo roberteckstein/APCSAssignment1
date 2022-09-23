@@ -32,6 +32,7 @@ public class Main {
 
         JOptionPane.showMessageDialog(null, "Mr. Bob Was Here");
         JOptionPane.showMessageDialog(null, "Dean was here");
+        JOptionPane.showMessageDialog(null, "You can't spell intuitive without tuitive");
         JOptionPane.showMessageDialog(null, "T. Smith eats scorpions (yuck)");
 
     }
