@@ -1,6 +1,7 @@
 package com.shs;
 
 import javax.swing.*;
+import java.awt.*;
 
 /*  Congratulations! If you see this code, then you've
     connected to the repository correctly. Run this
@@ -35,5 +36,27 @@ public class Main {
         JOptionPane.showMessageDialog(null, "You can't spell intuitive without tuitive");
         JOptionPane.showMessageDialog(null, "T. Smith eats scorpions (yuck)");
 
+        // hangil
+        JFrame f1 = new JFrame("Hangil");
+        f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f1.setSize(400, 400);
+        f1.setLocationRelativeTo(null);
+        JPanel p = new JPanel();
+        p.setLayout(new GridBagLayout());
+        JLabel l = new JLabel("<html><font size='+5' color='red'>Hello world!</font></html>");
+
+        JButton b = new JButton("Change Color");
+        b.setPreferredSize(new Dimension(100, 25));
+        b.addActionListener(a -> {
+            if (l.getText().equals("<html><font size='+5' color='red'>Hello world!</font></html>")) {
+                l.setText("<html><font size='+5' color='blue'>Hello world!</font></html>");
+            } else {
+                l.setText("<html><font size='+5' color='red'>Hello world!</font></html>");
+            }
+        });
+        p.add(l);
+        p.add(b);
+        f1.add(p);
+        f1.setVisible(true);
     }
 }
