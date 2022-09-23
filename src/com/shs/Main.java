@@ -22,12 +22,13 @@ public class Main {
         f.setSize(500,500);
         f.setVisible(true);
 
-        //  We will go over the update/commit/push cycle
-        //  next week. If you know what you're doing, go
-        //  ahead and add some code below and commit and
-        //  push. If not, or you get a conflict, don't
-        //  worry about it. We'll talk more about it next
-        //  week.
+            /* We will go over the update/commit/push cycle
+            next week. If you know what you're doing, go
+            ahead and add some code below and commit and
+            push. If not, or you get a conflict, don't
+            worry about it. We'll talk more about it next
+            week.
+            */
 
         JOptionPane.showMessageDialog(null, "Mr. Bob Was Here");
         JOptionPane.showMessageDialog(null, "T. Smith eats scorpions (yuck)");
