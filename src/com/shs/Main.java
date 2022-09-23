@@ -44,7 +44,6 @@ public class Main {
         f1.setLocationRelativeTo(null);
         JPanel p = new JPanel();
         JLabel l = new JLabel("<html><font size='+5' color='red'>Hello world!</font></html>");
-
         JButton b = new JButton("Color");
         b.setPreferredSize(new Dimension(100, 25));
         b.addActionListener(a -> {
