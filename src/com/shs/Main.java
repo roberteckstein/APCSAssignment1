@@ -43,10 +43,9 @@ public class Main {
         f1.setSize(600, 400);
         f1.setLocationRelativeTo(null);
         JPanel p = new JPanel();
-        p.setLayout(new GridBagLayout());
         JLabel l = new JLabel("<html><font size='+5' color='red'>Hello world!</font></html>");
 
-        JButton b = new JButton("Change Color");
+        JButton b = new JButton("Color");
         b.setPreferredSize(new Dimension(100, 25));
         b.addActionListener(a -> {
             if (l.getText().equals("<html><font size='+5' color='red'>Hello world!</font></html>")) {
