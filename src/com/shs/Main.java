@@ -39,7 +39,7 @@ public class Main {
         // hangil
         JFrame f1 = new JFrame("Hangil");
         f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f1.setSize(400, 400);
+        f1.setSize(600, 400);
         f1.setLocationRelativeTo(null);
         JPanel p = new JPanel();
         p.setLayout(new GridBagLayout());
