@@ -1,31 +1,13 @@
 package com.shs;
 
 public class DeansClass {
-    private String rtjrthrtuhj = "yes";
-    private String rtjrthrtuhh = "yes";
-    private int rtjrthrtujh = 20;
+    private String hi3 = "yes";
+    private String hi2 = "yes";
+    private int hi = 20;
 
-    public void setRtjrthrtuhh(String rtjrthrtuhh) {
-        this.rtjrthrtuhh = rtjrthrtuhh;
-    }
-
-    public void setRtjrthrtuhj(String rtjrthrtuhj) {
-        this.rtjrthrtuhj = rtjrthrtuhj;
-    }
-
-    public void setRtjrthrtujh(int rtjrthrtujh) {
-        this.rtjrthrtujh = rtjrthrtujh;
-    }
-
-    public int getRtjrthrtujh() {
-        return rtjrthrtujh;
-    }
-
-    public String getRtjrthrtuhh() {
-        return rtjrthrtuhh;
-    }
-
-    public String getRtjrthrtuhj() {
-        return rtjrthrtuhj;
+    public DeansClass(String hi3, String hi2, int hi){
+        this.hi = 20;
+        this.hi2 = hi2;
+        this.hi3 = hi3;
     }
 }
