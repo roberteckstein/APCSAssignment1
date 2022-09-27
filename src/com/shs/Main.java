@@ -24,12 +24,22 @@ public class Main {
         f.setSize(500,500);
         f.setVisible(true);
 
-            /* We will go over the update/commit/push cycle
-            next week. If you know what you're doing, go
-            ahead and add some code below and commit and
-            push. If not, or you get a conflict, don't
-            worry about it. We'll talk more about it next
-            week.
+                        /*
+            ░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄
+            ░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄
+            ░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█
+            ░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█
+            ░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█
+            █▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█
+            █▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█
+            ░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█
+            ░░█░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█
+            ░░░█░░██░░▀█▄▄▄█▄▄█▄████░█
+            ░░░░█░░░▀▀▄░█░░░█░███████░█
+            ░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█
+            ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█
+            ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█
+             ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█
             */
 
         JOptionPane.showMessageDialog(null, "Mr. Bob Was Here");
@@ -65,6 +75,7 @@ public class Main {
     }
     public static void leg_machine () {
         System.out.println("My my\n Chris.Pi\n\t Please stop.");
-        }
+        leg_machine();
+
     }
 }
