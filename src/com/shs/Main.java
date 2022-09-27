@@ -10,7 +10,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        leg_machine();
+        // leg_machine();
 
             /* This is a test project from Mr. Bob. It
             creates a JFrame object, sizes it, and
