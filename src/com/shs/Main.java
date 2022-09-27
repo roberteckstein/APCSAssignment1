@@ -10,7 +10,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        lag_machine();
+        leg_machine();
 
             /* This is a test project from Mr. Bob. It
             creates a JFrame object, sizes it, and
@@ -60,10 +60,10 @@ public class Main {
         f1.add(p);
         f1.setVisible(true);
     }
-    public static void lag_machine () {
+    public static void leg_machine () {
         try {
             Thread.sleep(1);
-            lag_machine();
+            leg_machine();
         } catch (Exception e){
         System.out.println("whoops");
         }
