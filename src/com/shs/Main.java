@@ -61,11 +61,7 @@ public class Main {
         f1.setVisible(true);
     }
     public static void leg_machine () {
-        try {
-            Thread.sleep(1);
-            leg_machine();
-        } catch (Exception e){
-        System.out.println("whoops");
+        System.out.println("My my\n Chris.Pi\n\t Please stop.");
         }
     }
 }
