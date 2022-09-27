@@ -1,3 +1,5 @@
+package com.shs;
+
 import javax.swing.*;
 import java.awt.*;
 
