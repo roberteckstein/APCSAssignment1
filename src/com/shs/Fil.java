@@ -21,7 +21,7 @@ public class Fil {
         this.o = o;
         this.p = p;
     }
-    private void print() {
+    public void print() {
         System.out.println(a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p);
     }
 }
