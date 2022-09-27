@@ -47,6 +47,8 @@ public class Main {
         // Derek
         Fil fil = new Fil (1,2,23,65,21,57,21,"SFDSF","DSAD","SDJ", "DSADSWE","HI","BYE", "WHOOPE", 123.12,13213.2);
         fil.print();
+        Hangil h = new Hangil();
+        h.addLabel("lkasjhdfjklaasdfh");
         // hangil
         JFrame f1 = new JFrame("Hangil");
         f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
