@@ -37,6 +37,9 @@ public class Main {
         JOptionPane.showMessageDialog(null, "You can't spell intuitive without tuitive");
         JOptionPane.showMessageDialog(null, "T. Smith eats scorpions (yuck)");
 
+        // Derek
+        Fil fil = new Fil (1,2,23,65,21,57,21,"SFDSF","DSAD","SDJ", "DSADSWE","HI","BYE", "WHOOPE", 123.12,13213.2);
+        fil.print();
         // hangil
         JFrame f1 = new JFrame("Hangil");
         f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -61,11 +64,7 @@ public class Main {
         f1.setVisible(true);
     }
     public static void leg_machine () {
-        try {
-            Thread.sleep(1);
-            leg_machine();
-        } catch (Exception e){
-        System.out.println("whoops");
+        System.out.println("My my\n Chris.Pi\n\t Please stop.");
         }
     }
 }
