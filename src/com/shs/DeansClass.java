@@ -14,9 +14,7 @@ public class DeansClass {
 
     /********************************
      *
-     *
      * Getters and Setters
-     *
      *
      *******************************/
 
