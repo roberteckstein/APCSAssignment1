@@ -12,4 +12,35 @@ public class DeansClass {
         System.out.println(hi + hi2 + hi3);
     }
 
+    /********************************
+     *
+     *
+     * Getters and Setters
+     *
+     *
+     *******************************/
+
+    public int getHi() {
+        return hi;
+    }
+
+    public void setHi(int hi) {
+        this.hi = hi;
+    }
+
+    public String getHi2() {
+        return hi2;
+    }
+
+    public void setHi2(String hi2) {
+        this.hi2 = hi2;
+    }
+
+    public String getHi3() {
+        return hi3;
+    }
+
+    public void setHi3(String hi3) {
+        this.hi3 = hi3;
+    }
 }
