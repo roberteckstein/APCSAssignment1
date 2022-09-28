@@ -10,7 +10,24 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-         leg_machine();
+        // leg_machine();
+
+        BufordVanStom s1 = new BufordVanStom();
+        s1.addNerd(23.4);
+
+        CyrusHo h1 = new CyrusHo("Anime1", 2, 1);
+
+        DeansClass d1 = new DeansClass("Test", "Test2", 1);
+
+        Fil f = new Fil(1, 2, 3, 4, 5, 6, 7,
+                "h", "i", "j", "k", "l", "m", "n",
+                1.1, 1.2);
+
+        Hangil h = new Hangil();
+
+        Landon l = new Landon("First", "Last", 18);
+
+        Marge m = new Marge(21, "Hello");
 
             /* This is a test project from Mr. Bob. It
             creates a JFrame object, sizes it, and
@@ -18,7 +35,8 @@ public class Main {
             closes the frame using the control in the
             title bar, the program should exit.
             */
-
+    }
+/*
         JFrame f = new JFrame("A Window");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(500,500);
@@ -76,5 +94,5 @@ public class Main {
         System.out.println("My my\n Chris.Pi\n\t Please stop.");
         leg_machine();
 
-    }
+    }*/
 }

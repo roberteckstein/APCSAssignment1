@@ -5,7 +5,9 @@ public class Landon {
     public String lastName;
     public int age;
 
-    public void LandonMalan(String firstName, String lastName, int age) {
+ //   public void LandonMalan(String firstName, String lastName, int age) {
+    public Landon(String firstName, String lastName, int age) {
+
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;

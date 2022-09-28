@@ -5,8 +5,9 @@ public class CyrusHo {
     private int hoursSlept;
     private int passingClasses;
 
-    public void CyrusHo(String Anime, int hoursSlept, int passingClasses) {
-        this.Anime = Anime;
+ //   public void CyrusHo(String Anime, int hoursSlept, int passingClasses) {
+    public CyrusHo(String Anime, int hoursSlept, int passingClasses) {
+       this.Anime = Anime;
         this.hoursSlept = hoursSlept;
         this.passingClasses = passingClasses;
     }

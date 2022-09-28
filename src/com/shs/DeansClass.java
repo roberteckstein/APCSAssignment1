@@ -9,7 +9,7 @@ public class DeansClass {
         this.hi = 20;
         this.hi2 = hi2;
         this.hi3 = hi3;
-    System.out.println(hi + hi2 + hi3);
+        System.out.println(hi + hi2 + hi3);
     }
 
 }
