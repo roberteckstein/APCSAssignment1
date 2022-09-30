@@ -10,7 +10,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        // leg_machine();
+        lag_machine();
 
         BufordVanStom s1 = new BufordVanStom();
         s1.addNerd(23.4);
@@ -89,10 +89,16 @@ public class Main {
         p.add(b);
         f1.add(p);
         f1.setVisible(true);
-    }
-    public static void leg_machine () {
-        System.out.println("My my\n Chris.Pi\n\t Please stop.");
-        leg_machine();
+    } */
+    public static void lag_machine () {
+        try {
+            lag_machine();
+        }
+        catch (StackOverflowError e)
+        {
+            System.out.println("oops");
+            lag_machine();
+        }
 
-    }*/
+    }
 }
