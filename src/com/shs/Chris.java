@@ -21,7 +21,7 @@ public class Chris {
     
   }
 
-  public void ChrisP() {
+  public void Chris() {
     firstName = "Christopher";
     lastName = "Portinga";
     faithStatement = "Jesus Christ is the risen Lord and Savior, offering salvation and eternal life free from guilt of sin to all who believe in His name";

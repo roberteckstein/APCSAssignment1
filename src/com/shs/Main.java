@@ -25,7 +25,7 @@ public class Main {
 
         Hangil h = new Hangil();
 
-        Chris c = new Chris(" ", " ", "Jesus", 0);
+        Chris c = new Chris(" ", " ", " ", 0);
         System.out.println(c.firstName);
         System.out.println(c.lastName);
         System.out.println(c.faithStatement);
