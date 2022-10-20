@@ -10,7 +10,7 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-        lag_machine();
+        //lag_machine();
 
         BufordVanStom s1 = new BufordVanStom();
         s1.addNerd(23.4);
@@ -25,6 +25,13 @@ public class Main {
 
         Hangil h = new Hangil();
 
+        Chris c = new Chris(" ", " ", "Jesus", 0);
+        System.out.println(c.firstName);
+        System.out.println(c.lastName);
+        System.out.println(c.faithStatement);
+        System.out.println(c.age);
+        // Unsure if this works on IntelliJ, currently using Repl. Will check Thursday, then ask Mr. Eckstein if it still doesn't.
+      
         Landon l = new Landon("First", "Last", 18);
 
         Marge m = new Marge(21, "Hello");
@@ -45,21 +52,6 @@ public class Main {
 
         JOptionPane.showMessageDialog(null, "Mr. Bob Was Here");
         JOptionPane.showMessageDialog(null, "Dean was here");
-        JOptionPane.showMessageDialog(null, "\n   ░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄\n" +
-                "            ░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄\n" +
-                "            ░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█\n" +
-                "            ░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░█\n" +
-                "            ░▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░█\n" +
-                "            █▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒█\n" +
-                "            █▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█\n" +
-                "            ░█▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█\n" +
-                "            ░░█░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█\n" +
-                "            ░░░█░░██░░▀█▄▄▄█▄▄█▄████░█\n" +
-                "            ░░░░█░░░▀▀▄░█░░░█░███████░█\n" +
-                "            ░░░░░▀▄░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█\n" +
-                "            ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░█\n" +
-                "            ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░█\n" +
-                "             ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░█");
         JOptionPane.showMessageDialog(null, "T. Smith eats scorpions (yuck)");
 
         // Derek
@@ -90,7 +82,7 @@ public class Main {
         f1.add(p);
         f1.setVisible(true);
     } */
-    public static void lag_machine () {
+    /* public static void lag_machine () {
         try {
             lag_machine();
         }
@@ -100,5 +92,5 @@ public class Main {
             lag_machine();
         }
 
-    }
+    } */
 }
